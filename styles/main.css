@@ -1,18 +1,62 @@
 @import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
 body{
 	line-height:40px;
-	Background-Color: #FFFEA1;
 	font-family: 'Montserrat';
 }
 
+/*header{
+	display: flex;
+	justify-content: space-between;
+	Background-Color: #FFFEA1;
+}*/
+
+#header{
+	display: flex;
+	justify-content: center;
+	Background-Color: #FFFFE0;
+	padding: 10px;
+}
+
+footer{
+	display: flex;
+	justify-content: space-between;
+	Background-Color: #FFFEA1;
+}
+
+.logo{
+	display: flex;
+	justify-content: space-between;
+	image
+}
+
+.nav{
+display: flex;
+justify-content: space-around;
+}
+
+ul{
+	display: flex;
+	justify-content: space-around;
+	margin
+}
+
+li {
+	padding: 2em;
+	list-style: none;
+}
+
+video {
+	display: block;
+	margin-left: auto;
+	margin: auto;
+}
 
 h1 {
-  font-size: 3em;
-  margin-top: 2em;
-	margin-bottom: 1em;
-  font-weight: bold;
+	margin-top: 1.4em;
+  font-size: 2.5em;
 	text-align: center;
-	color: #FD4000;
+	display: flex;
+	color: #DAA520;
 	font-family: 'Gloria Hallelujah';
 }
 
@@ -25,7 +69,7 @@ h1 {
 }
 
 .comp-section-content{
-  font-size: 1em;
+  font-size: 12px;
   margin-left: 0em;
   margin-top: 2em;
   margin-right: 1em;
@@ -51,8 +95,9 @@ h1 {
 
 a:link {
 	font-size: 1em;
-	font-style:italic;
 	font-family: 'Montserrat';
+	text-decoration: none;
+	color: black;
 }
 a:hover {
     color: lightblue;
