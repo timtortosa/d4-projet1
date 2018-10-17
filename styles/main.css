@@ -2,31 +2,33 @@
 body{
 	line-height:40px;
 	font-family: 'Montserrat';
+	background-color: #FFFEA1;
 }
 
-/*header{
-	display: flex;
-	justify-content: space-between;
-	Background-Color: #FFFEA1;
-}*/
+p{
+	font-size: 1.5em;
+}
 
 #header{
 	display: flex;
 	justify-content: center;
 	Background-Color: #FFFFE0;
-	padding: 10px;
 }
 
-footer{
+#header-page{
 	display: flex;
-	justify-content: space-between;
-	Background-Color: #FFFEA1;
+	justify-content:space-between;
+	Background-Color: #FFFFE0;
 }
+
+#fleches{
+	display: flex;
+	justify-content:space-between;}
 
 .logo{
 	display: flex;
-	justify-content: space-between;
-	image
+	justify-content: space-around;
+	margin-top: 1em;
 }
 
 .nav{
@@ -37,7 +39,6 @@ justify-content: space-around;
 ul{
 	display: flex;
 	justify-content: space-around;
-	margin
 }
 
 li {
@@ -52,24 +53,34 @@ video {
 }
 
 h1 {
-	margin-top: 1.4em;
-  font-size: 2.5em;
+	margin-top: 2.3em;
+  font-size: 1.5em;
 	text-align: center;
 	display: flex;
 	color: #DAA520;
 	font-family: 'Gloria Hallelujah';
 }
 
-#comp h2 {
+h3 {
+	margin-top: 3em;
+	margin-right: 1em;
+  font-size: 1.2em;
+	display: flex;
+	justify-content: space-around;
+	color: black;
+	font-family: 'Gloria Hallelujah';
+}
 
+ h2 {
   margin-top: 30px;
   margin-bottom: 15px;
   font-weight: bold;
   text-align: center;
+	font-size: 2em;
 }
 
 .comp-section-content{
-  font-size: 12px;
+  font-size: 14px;
   margin-left: 0em;
   margin-top: 2em;
   margin-right: 1em;
@@ -80,25 +91,27 @@ h1 {
 .comp-content{
 	width:25%;
 	padding:1em;
+}
 
-}
-.comp-content p{
-	margin-top:1em;
-}
 
 .image {
 	display: block;
-	margin: 0 auto;
+	margin: auto;
+	margin-top: 1em;
 	width:300px;
 	height:300px;
 }
 
 a:link {
-	font-size: 1em;
-	font-family: 'Montserrat';
+	font-size: 1.5em;
+	font-family: 'Gloria Hallelujah';
 	text-decoration: none;
 	color: black;
 }
 a:hover {
     color: lightblue;
+}
+
+video {
+	margin-top: 1em;
 }
